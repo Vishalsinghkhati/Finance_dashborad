@@ -35,7 +35,7 @@ const Sidebar = ({ open, setOpen }) => {
         {/* Mobile Close */}
         <div className="flex justify-between items-center mb-8 md:hidden">
           <h1 className="text-2xl font-bold">
-            FinanceAI
+            Finance
           </h1>
 
           <button onClick={() => setOpen(false)}>
